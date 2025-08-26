@@ -16,12 +16,19 @@ ABC Industries worked day and night for a month to prepare a tender document for
 
 # Questions
 a. What is the operating system of the host from which the network traffic was captured? 
+
 b. What is the full URL from which the ransomware executable was downloaded? 
+
 c. Name the ransomware executable file? 
+
 d. What is the MD5 hash of the ransomware? 
+
 e. What is the name of the ransomware? 
+
 f. What is the encryption algorithm used by the ransomware, according to the ransom note? 
+
 g. What is the domain beginning with ‘d’ that is related to ransomware traffic? 
+
 h. Decrypt the Tender document and submit the flag
 
 # ❓ Question (A) What is the operating system of the host from which the network traffic was captured? 
@@ -40,9 +47,11 @@ We go to the Wireshark search engine and filter by http.request because with thi
 ![fullrequest](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/1e2a72ade786a2d7ac7a91d44c0e8eb3f43ad5e4/BTLO/NetworkAnalysis-Ransomware/Images/NAR-fullrequest.png)
 
 Within the file that the query gave us, in the Hypertext Transfer Protocol section it gives us the full request in violet
+
 ✅ The Answer is: http://10.0.2.15:8000/safecrypt.exe
 
 # ❓ Question (C) Name the ransomware executable file?
 
 At the end of the URL we can see the name of the executable ending in .exe
+
 ✅ The Answer is: safecrypt.exe
