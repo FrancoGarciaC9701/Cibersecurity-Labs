@@ -111,6 +111,7 @@ For this step we are going to use Ransomware File Decryptor, it is compatible on
 ✅ The Answer is: BTLO-T3nd3r-Fl@g
 
 Thank you for reading, any questions, corrections or suggestions are welcome. My contact channels are
+
 francogarcia9701@gmail.com
+
 https://www.linkedin.com/in/franco-garcia9701/
-Thank you for reading, any questions, corrections or suggestions are welcome. My contact channels are
