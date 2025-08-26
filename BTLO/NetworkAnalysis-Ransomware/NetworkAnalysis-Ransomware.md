@@ -4,7 +4,7 @@
 ABC Industries worked day and night for a month to prepare a tender document for a prestigious project that would secure the company’s financial future. The company was hit by ransomware, believed to be conducted by a competitor, and the final version of the tender document was encrypted. Right now they are in need of an expert who can decrypt this critical document. All we have is the network traffic, the ransom note, and the encrypted ender document. Do your thing Defender!​
 
 # What am I going to wear?
-. VMWare with Linux - Wireshark
+. VMWare with Linux - Wireshark - TShark - VirusTotal
 
 # 🚀 Conclusion
 
@@ -72,4 +72,13 @@ Once we have the executable extracted, we enter the folder where we saved it and
 
 ✅ The Answer is: 4a1d88603b1007825a9c6b36d1e5de44
 
+# ❓ Question (E) What is the name of the ransomware? 
 
+After using the hash we obtained in the previous exercise, we are going to take it to Virustotal to analyze it
+
+![RName](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/526fff6d5771b8c4e966f64545beeeee26dcab53/BTLO/NetworkAnalysis-Ransomware/Images/NAR-ransomwarename.png)
+
+We can see in family labels that it is already associated with other investigations and in the antivirus search engines we see a name that is repeated in similar ways. "Teslacrypt" "Tescrypt"
+We tried those two and found it to be Teslacrypt
+
+✅ The Answer is: Teslacrypt
