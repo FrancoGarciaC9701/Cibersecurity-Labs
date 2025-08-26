@@ -82,3 +82,23 @@ We can see in family labels that it is already associated with other investigati
 We tried those two and found it to be Teslacrypt
 
 ✅ The Answer is: Teslacrypt
+
+# ❓ Question (F) What is the encryption algorithm used by the ransomware, according to the ransom note? 
+
+At the beginning of the message they sent us, we can see that they informed us that they used RSA-4096 to encrypt the files.
+
+![Encrypt](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/2c1a2367bec7bf699e03811bb403990fe1d03d65/BTLO/NetworkAnalysis-Ransomware/Images/help_recover_instructions.png)
+
+✅ The Answer is: RSA-4096
+
+# ❓ Question (G) What is the domain beginning with ‘d’ that is related to ransomware traffic?
+
+We go back to Wireshark, as we need to look for a domain related to the ransomware traffic that starts with "d" and after comparing the few domains we found with "d" with the domains related to the hash in virustotal we can see that the answer is "dunyamuzelerimuzesi.com"
+
+![DNS](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/930842e7ff6c5b65bcdae691c0fd0a970fe7022c/BTLO/NetworkAnalysis-Ransomware/Images/NAR-DNS.png)
+![DNS2](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/5505afcb554691c81a2ce19ee7629a50449c868c/BTLO/NetworkAnalysis-Ransomware/Images/NAR-DNSVT.png)
+
+✅ The Answer is: dunyamuzelerimuzesi.com
+
+# ❓ Question (H) Decrypt the Tender document and submit the flag
+
