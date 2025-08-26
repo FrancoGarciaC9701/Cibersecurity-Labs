@@ -64,9 +64,11 @@ Since there is no query in Wireshark that gives us the md5 hash, we will have to
 
 We see that it is http then in Tshark we use the following command to create a folder and extract the executable from the .pcap file (DO NOT RUN IT THE .EXE FILE):
 
-tshark -r captura.pcap --export-objects http,./archivos_extraidos
+tshark -r  ransom_traffic.pcapng --export-objects http,./archivos_extraidos
 
-![Md5Extract](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/242e5ccaeec4a6aef9871ee0585c4e4871edbcc6/BTLO/NetworkAnalysis-Ransomware/Images/NAR-md5extract.png)
+Once we have the executable extracted, we enter the folder where we saved it and use md5sum to extract the hash:
+
+![Md5Extract](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/06690cea46084ac993a6a68da4aa7d3a17ed1786/BTLO/NetworkAnalysis-Ransomware/Images/NAR-md5extract.png.png)
 
 ✅ The Answer is: 4a1d88603b1007825a9c6b36d1e5de44
 
