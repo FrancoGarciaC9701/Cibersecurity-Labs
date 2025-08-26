@@ -4,8 +4,8 @@
 ABC Industries worked day and night for a month to prepare a tender document for a prestigious project that would secure the company’s financial future. The company was hit by ransomware, believed to be conducted by a competitor, and the final version of the tender document was encrypted. Right now they are in need of an expert who can decrypt this critical document. All we have is the network traffic, the ransom note, and the encrypted ender document. Do your thing Defender!​
 
 # What am I going to wear?
-. VMWare with Linux
-. Wireshark
+. VMWare with Linux - Wireshark
+
 # 🚀 Conclusion
 
 # 🔎 Steps
@@ -55,3 +55,19 @@ Within the file that the query gave us, in the Hypertext Transfer Protocol secti
 At the end of the URL we can see the name of the executable ending in .exe
 
 ✅ The Answer is: safecrypt.exe
+
+# ❓ Question (D) What is the MD5 hash of the ransomware? 
+
+Since there is no query in Wireshark that gives us the md5 hash, we will have to extract the file with Tshark. First, let's look at the protocol used in Statistics > Protocol Hierarchy. In any case, we can see it in what the "http.request" query gives us.
+
+![SPH](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/c5727ee900780cabc41e4bb9a0275974a62c5d7e/BTLO/NetworkAnalysis-Ransomware/Images/NAR-extraction1.png)
+
+We see that it is http then in Tshark we use the following command to create a folder and extract the executable from the .pcap file (DO NOT RUN IT THE .EXE FILE):
+
+tshark -r captura.pcap --export-objects http,./archivos_extraidos
+
+![Md5Extract](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/242e5ccaeec4a6aef9871ee0585c4e4871edbcc6/BTLO/NetworkAnalysis-Ransomware/Images/NAR-md5extract.png)
+
+✅ The Answer is: 4a1d88603b1007825a9c6b36d1e5de44
+
+
