@@ -102,3 +102,10 @@ We go back to Wireshark, as we need to look for a domain related to the ransomwa
 
 # ❓ Question (H) Decrypt the Tender document and submit the flag
 
+For this step we are going to use Ransomware File Decryptor, it is compatible only with Windows, we download it from its official website https://success.trendmicro.com/en-US/solution/KA-0006362, unzip the file, start the application, when we have to choose the file type we choose TeslaCrypt V3/V4 and then the file to analyze which is tender.pdf.micro
+
+
+![RMWTM](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/b5dab043c72af80d6e8632412b5f900b59efee61/BTLO/NetworkAnalysis-Ransomware/Images/Screenshot%202025-08-26%20182739.png)
+![FLAG](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/b5dab043c72af80d6e8632412b5f900b59efee61/BTLO/NetworkAnalysis-Ransomware/Images/Screenshot%202025-08-26%20182637.png)
+
+✅ The Answer is: BTLO-T3nd3r-Fl@g
