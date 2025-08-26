@@ -4,9 +4,7 @@
 ABC Industries worked day and night for a month to prepare a tender document for a prestigious project that would secure the company’s financial future. The company was hit by ransomware, believed to be conducted by a competitor, and the final version of the tender document was encrypted. Right now they are in need of an expert who can decrypt this critical document. All we have is the network traffic, the ransom note, and the encrypted ender document. Do your thing Defender!​
 
 # What am I going to wear?
-. VMWare with Linux - Wireshark - TShark - VirusTotal
-
-# 🚀 Conclusion
+. VMWare with Linux - Wireshark - TShark - VirusTotal - RansomwareFileDecryption
 
 # 🔎 Steps
 1. Dowload the lab file
@@ -109,3 +107,8 @@ For this step we are going to use Ransomware File Decryptor, it is compatible on
 ![FLAG](https://github.com/FrancoGarciaC9701/Cibersecurity-Labs/blob/b5dab043c72af80d6e8632412b5f900b59efee61/BTLO/NetworkAnalysis-Ransomware/Images/Screenshot%202025-08-26%20182637.png)
 
 ✅ The Answer is: BTLO-T3nd3r-Fl@g
+
+Thank you for reading, any questions, corrections or suggestions are welcome. My contact channels are
+francogarcia9701@gmail.com
+https://www.linkedin.com/in/franco-garcia9701/
+Thank you for reading, any questions, corrections or suggestions are welcome. My contact channels are
